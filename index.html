@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="./index.css" />
+        <title>Random Password</title>
+    </head>
+    <body>
+        <main>
+            <div class="main-container">
+                 <h1 class="header">Generate a <span>random password</span></h1>
+                 <p class="subheader">Never use an insecure password again.</p>
+                 <button id="password-btn" class="password-btn" onclick="getGeneratedPasswords()">Generate passwords</button>
+                 <hr>
+                 <div class="output-box">
+                      <input id="password-one" class="passwords" type="text" value="*****" onclick="copyOneToClipboard()" readonly>
+                      <input id="password-two" class="passwords" type="text" value="*****" onclick="copyTwoToClipboard()" readonly>
+                 </div>
+                 
+            </div>
+            
+        </main>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
